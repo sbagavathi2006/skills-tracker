@@ -52,7 +52,6 @@ public class SkillsController {
                 "</body>" +
                 "</html>";
         return Initial+"\n\n"+html;
-
     }
     @RequestMapping("submit")
     @ResponseBody
